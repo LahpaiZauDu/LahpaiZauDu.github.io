@@ -28,10 +28,6 @@ export default function Home() {
               <Mail className="mr-3 h-5 w-5" />
               {t("hero.email")}
             </a>
-            <a href="#" className="inline-flex items-center justify-center rounded-full border-2 border-gray-300 dark:border-gray-700 px-8 py-4 text-base font-bold transition-colors hover:bg-gray-100 dark:hover:bg-gray-800 bg-white dark:bg-transparent text-black dark:text-white">
-              <Download className="mr-3 h-5 w-5" />
-              {t("hero.cv")}
-            </a>
           </div>
         </div>
         <div className="p-8 rounded-3xl border-2 border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 shadow-md flex flex-col gap-6">
