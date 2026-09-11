@@ -195,8 +195,9 @@ export default function Home() {
               alt="CMU Graduation Photo" 
               className="w-full h-full object-cover object-center scale-125 origin-[50%_55%] group-hover:scale-[1.35] transition-transform duration-700"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
               <span className="text-white font-bold text-lg">CMU Graduation</span>
+              <span className="text-white/80 text-sm font-medium mt-1">2023</span>
             </div>
           </div>
 
@@ -207,8 +208,9 @@ export default function Home() {
               alt="ACU Graduation Photo" 
               className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
               <span className="text-white font-bold text-lg">ACU Graduation</span>
+              <span className="text-white/80 text-sm font-medium mt-1">2017</span>
             </div>
           </div>
 
@@ -219,8 +221,9 @@ export default function Home() {
               alt="ALCC Graduation Photo" 
               className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
               <span className="text-white font-bold text-lg">ALCC Graduation</span>
+              <span className="text-white/80 text-sm font-medium mt-1">2015</span>
             </div>
           </div>
         </div>
